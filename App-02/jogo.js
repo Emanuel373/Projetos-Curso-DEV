@@ -36,7 +36,7 @@ var cronometro = setInterval( function(){
     }else{
         document.getElementById('tempo_jogo').innerHTML = tempo;
     }
-}, 1000)
+}, 120000)
 
 function posicaoRadomica() {
 
