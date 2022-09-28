@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6e6e6;
+    font-weight: bold;
+}
+
+/* Layout */
+
+#area-cabeçalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-principal{
+    width: 1120px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens{
+    width: 660px;
+    float: right;
+}
+
+#menu-lateral {
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+    margin-left: 10px;
+}
+
+ #rodape{
+     clear: both;
+     text-align: center;
+     padding: 15px;
+     background-color: #ccc;
+ }
+
+ /* FORMATAÇÃO DO MENU */
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color:#f7b600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#area-cabeçalho a:link, #area-cabeçalho a:visited{
+    color: white;
+    padding: 8px 12px;
+}
+
+#area-cabeçalho a:hover{
+    color: #f7b600;
+    background-color: white;
+    text-decoration: none;
+}
+
+#menu-lateral ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu-lateral ul a{
+    border: 1px solid red;
+    display: block;
+    width: 200px;
+    height: 40px;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: #f7b600 url(imagens/menu.png) no-repeat left bottom;
+}
+
+#menu-lateral a:hover, .selecionado a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+/* FORMATAÇÕES GERAIS */
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: #565656;
+    background-color: #CCC;
+    padding: 5px;
+}
+
+li{
+    list-style: none;
+}
+
+.branco{
+    color: white;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.conteudo-lateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1PX solid #CCC;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
