@@ -1,7 +1,7 @@
 var altura = 0;
 var largura = 0;
 var vidas = 1;
-var tempo = 5;
+var tempo = 120;
 
 var criaMosquitoTempo = 1500;
 
@@ -36,7 +36,7 @@ var cronometro = setInterval( function(){
     }else{
         document.getElementById('tempo_jogo').innerHTML = tempo;
     }
-}, 120000)
+}, 1000)
 
 function posicaoRadomica() {
 
